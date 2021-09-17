@@ -3,7 +3,7 @@ import Vue from 'vue'
 import Vuex from 'vuex'
 
 Vue.use(Vuex)
-const url = `http://localhost:3000/task`
+const url = `https://vue-dc-todo-app.herokuapp.com/task`
 const storeData = {
     state:{
         todoArr:[]
